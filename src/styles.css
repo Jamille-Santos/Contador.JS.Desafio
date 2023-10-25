@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contador-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.contador-titulo {
+  font-size: 100px;
+  color: red;
+  margin-bottom: 20px;
+  cursor: wait;
+}
+
+.contador-botão {
+  display: flex;
+}
+
+.contador-botão {
+  background-color: #007bff;
+  color: #0056b3;
+
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAABhX10AAAAAAABe/wCKiYgA4+HeAACz/wC/vbsAPTw6APf39wAAAP8AeHh4AAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERdzMxERERERERERERERERF3d3cxEREREREREREREREXd3d3cxERERERERERERERF3qgd3cRERERERERERERERqqoAd3EREREREREREREREapmoAERERERERERERERERGqSGqncRERERERERERERERGmRqpxEVERERERERERERERGqqqExERERERERERERERERERETESUVERERERERERERERERERGSEREREREREREREREREREpGSERERERERERERERERERWZUhERERERERERERERERERUiURERERERERERERERERURFRFRERERERERERERERERERURERERERERERERERERERFRERERERERERERH//////////////////////////////////////////////////////////////////////////+D////Af///gD///wAf//8AH///AB///wAf//8AH///gDf//8Ae///gJf///0P///+A///+g///f4P//z80//8f9n//D+f//w=="),
+    auto;
+  /* Só pra fazer uma graça */
+}
+
+.contador-botão :hover {
+  background-color: red;
+}
